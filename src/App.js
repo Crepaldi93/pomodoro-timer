@@ -5,9 +5,9 @@ import './App.css';
 
 function App() {
   
-  const [displayTime, setDisplayTime] = useState(5);
-  const [breakTime, setBreakTime] = useState(0.1);
-  const [sessionTime, setSessionTime] = useState(0.1);
+  const [displayTime, setDisplayTime] = useState(25 * 60);
+  const [breakTime, setBreakTime] = useState(5);
+  const [sessionTime, setSessionTime] = useState(25);
   const [onBreak, setOnBreak] = useState(false);
   const [timerOn, setTimerOn] = useState(false);
   
